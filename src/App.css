@@ -15,8 +15,8 @@ body {
     "Segoe UI",
     Roboto,
     sans-serif;
-  background-color: #ffffff;
-  color: #333;
+  background-color: #0a0a0a;
+  color: #ffffff;
   line-height: 1.6;
 }
 
@@ -33,10 +33,10 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(10, 10, 10, 0.95);
   backdrop-filter: blur(10px);
   z-index: 1000;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .navigation-container {
@@ -52,7 +52,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 2px;
-  color: #333;
+  color: #ffffff;
 }
 
 .nav-links {
@@ -63,14 +63,14 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: #666;
+  color: #cccccc;
   font-weight: 400;
   font-size: 16px;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #333;
+  color: #ffffff;
 }
 
 /* Main Content */
@@ -102,7 +102,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
-  color: #666;
+  color: #cccccc;
   margin-bottom: 48px;
 }
 
@@ -121,7 +121,7 @@ body {
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
-  color: #333;
+  color: #0a0a0a;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -152,8 +152,8 @@ body {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background-color: #333;
-  color: white;
+  background-color: #ffffff;
+  color: #0a0a0a;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,16 +162,18 @@ body {
 }
 
 .social-link:hover {
-  background-color: #555;
+  background-color: #e5e5e5;
   transform: translateY(-2px);
 }
 
 .social-link.linkedin:hover {
   background-color: #0077b5;
+  color: #ffffff;
 }
 
 .social-link.github:hover {
   background-color: #333;
+  color: #ffffff;
 }
 
 /* Hero Image */
@@ -192,7 +194,7 @@ body {
 /* Bottom Line */
 .bottom-line {
   height: 1px;
-  background-color: #e5e5e5;
+  background-color: #333333;
   width: 100%;
 }
 
